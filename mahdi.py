@@ -107,7 +107,7 @@ def main_apv():
         raw_input('          Copy Key And Press Enter For Approvel Your Key ')
         os.system('xdg-open https://wa.me/+923188214452')
 
-    r1 = requests.get('https://raw.githubusercontent.com/Karma-kh3n/file/main/Git.txt').text
+    r1 = requests.get('https://github.com/Shuvo-BBHH/new-paid/blob/main/mahdi.txt').text
     if key1 in r1:
         ip()
     else:
